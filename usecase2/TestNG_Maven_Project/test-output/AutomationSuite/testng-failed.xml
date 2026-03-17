@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="smoke(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.signupTest">
+        <methods>
+          <include name="AccountFill"/>
+        </methods>
+      </class> <!-- tests.signupTest -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
